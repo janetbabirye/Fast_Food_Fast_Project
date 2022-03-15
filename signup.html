@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="menu.html">MENU</a></li>
+        </ul>
+        <ul>
+            <li><a href="signin.html">SIGNIN</a></li>
+        </ul>
+        <ul>
+            <li><a href="signup.html">SIGNUP</a></li>
+        </ul>
+        <ul>
+            <li><a href="order.html">ORDER</a></li>
+        </ul>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <p class="menu_p">
+        <i class="fas fa-utensils"></i>make your order
+    </p>
+
+    <div>
+        <h2>SIGN UP</h2>
+    </div>
+
+    <!-- sign in-->
+    <form name="Form" onsubmit="MyForm()">
+
+        <div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" name="email">
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+
+        </div>
+
+        <div>
+            <P>by signing in you agree to the Terms and Conditions</P>
+            <P>don't have an account <span><a href="signin.html">SIGN IN</a></span></P>
+        </div>
+
+        <button type="button" name="submit">LOGIN</a></button>
+    </form>
+
+    <script src="order.js"></script>
+
+</body>
+
+</html>

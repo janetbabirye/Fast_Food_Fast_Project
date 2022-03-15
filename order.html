@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="order.js"></script>
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="menu.html">MENU</a></li>
+        </ul>
+        <ul>
+            <li><a href="signin.html">SIGNIN</a></li>
+        </ul>
+        <ul>
+            <li><a href="signup.html">SIGNUP</a></li>
+        </ul>
+        <ul>
+            <li><a href="order.html">ORDER</a></li>
+        </ul>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <section>
+        <p class="menu_p">
+            <i class="fas fa-utensils"></i>make your order
+        </p>
+
+        <form name="Form" onsubmit="MyForm()">
+
+            <div class="input-group">
+                <label for="food-name">Food Type</label>
+                <input type="text" name="name">
+            </div>
+            <div class="input-group">
+                <label for="number">How Many</label>
+                <input type="number" name="number">
+            </div>
+            <div class="input-group">
+                <label for="email">Address</label>
+                <input type="email" name="email">
+            </div>
+            <div class="input-group">
+                <label for="message">More details about ur order</label>
+                <textarea id="message" rows="8" required></textarea>
+            </div>
+            <button type="submit" name="submit" onclick="MyForm()">ORDER NOW</button>
+        </form>
+
+    </section>
+</body>
+
+</html>

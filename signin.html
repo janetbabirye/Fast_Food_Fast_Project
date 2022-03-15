@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="order.js"></script>
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="menu.html">MENU</a></li>
+        </ul>
+        <ul>
+            <li><a href="signin.html">SIGNIN</a></li>
+        </ul>
+        <ul>
+            <li><a href="signup.html">SIGNUP</a></li>
+        </ul>
+        <ul>
+            <li><a href="order.html">ORDER</a></li>
+        </ul>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <p class="menu_p">
+        <i class="fas fa-utensils"></i>make your order
+    </p>
+
+    <!-- sign in-->
+    <form name="Form" onsubmit="MyForm()">
+        <div>
+            <h2>SIGN IN</h2>
+        </div>
+        <div>
+            <div class="input-group">
+                <label for="name">Full Name</label>
+                <input type="name" name="fullname">
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" name="email">
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+
+            <div class="input-group">
+                <label for="c_password"> Confirm Password</label>
+                <input type="password" name="c_password">
+            </div>
+
+            <div class="input-group">
+                <label for="number">Phone No.</label>
+                <input type="number" name="number">
+            </div>
+
+            <div class="input-group">
+                <label for="address">Address</label>
+                <input type="text" name="address">
+            </div>
+
+            <button type="submit" value="submit">SUBMIT</button>
+
+        </div>
+
+    </form>
+
+    <div>
+        <P>by signing in you agree to the Terms and Conditions</P>
+        <P>already have an account <span>SIGN UP</span></P>
+    </div>
+    <script src="order.js"></script>
+</body>
+
+</html>
